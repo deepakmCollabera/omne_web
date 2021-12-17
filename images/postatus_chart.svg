@@ -1,0 +1,64 @@
+<svg width="294" height="182" viewBox="0 0 294 182" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-1.9%" y="-8.8%" width="103.8%" height="117.6%" filterUnits="objectBoundingBox" id="a">
+            <feMorphology radius="3" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0" in="shadowBlurOuter1"/>
+        </filter>
+        <rect id="b" x="0" y="0" width="1582" height="340" rx="4"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M-885-1175H795V263H-885z"/>
+        <path fill="#F2F5FA" d="M-885-1103H795V441H-885z"/>
+        <g transform="translate(-803 -108)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <g stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M1 74.73 30.611 79l29.8-17.258 29.144-9.963 29.679-22.24L148.65 21l29.738 50.883L208 51.423" stroke="#6DC8E6"/>
+            <path stroke="#FFAB00" d="m1 47 65.127 37 37.26-9.624h36.605l26.587 6.458L178.99 18 222 36.026"/>
+            <path stroke="#D0021B" d="m1 26.053 68.533 43.168 34-46.782L127.338 90l38.226-67.56L198 90"/>
+            <path stroke="#13B600" d="m1 101 65.635-59 26.54 19.355L130.05 42 189 89.984"/>
+        </g>
+        <path stroke="#B7B7B7" d="M.5.5h1v111h-1zM.5 111.5h249v1H.5z"/>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#9B9B9B">
+                                <tspan x="116" y="127">300</tspan>
+                            </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#9B9B9B">
+                                <tspan x="0" y="127">100</tspan>
+                            </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#9B9B9B">
+                                <tspan x="59" y="127">200</tspan>
+                            </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#9B9B9B">
+                                <tspan x="176" y="127">400</tspan>
+                            </text>
+        <g>
+            <g transform="translate(1 144)">
+                <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A">
+                                    <tspan x="16" y="11">Reactive PO</tspan>
+                                </text>
+                <circle fill="#D0021B" cx="4" cy="7" r="4"/>
+            </g>
+            <g transform="translate(92 146)">
+                <circle fill="#FFAB00" cx="4" cy="7" r="4"/>
+                <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A">
+                                    <tspan x="16" y="11">Termed Cases PO</tspan>
+                                </text>
+            </g>
+            <g transform="translate(215 144)">
+                <circle fill="#6DC8E6" cx="4" cy="7" r="4"/>
+                <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A">
+                                    <tspan x="16" y="11">Proactive PO</tspan>
+                                </text>
+            </g>
+            <g transform="translate(1 170)">
+                <circle fill="#13B600" cx="4" cy="7" r="4"/>
+                <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A">
+                                    <tspan x="16" y="11">Future Extension</tspan>
+                                </text>
+            </g>
+        </g>
+    </g>
+</svg>

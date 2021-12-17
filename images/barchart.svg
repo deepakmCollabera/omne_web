@@ -1,0 +1,52 @@
+<svg width="391" height="176" viewBox="0 0 391 176" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#E7E7E7" d="M112 0h1v159h-1z"/>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A" transform="translate(111)">
+                                <tspan x="0" y="172">0</tspan>
+                            </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A" transform="translate(111)">
+                                <tspan x="29" y="172">100</tspan>
+                            </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A" transform="translate(111)">
+                                <tspan x="62" y="172">200</tspan>
+                            </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A" transform="translate(111)">
+                                <tspan x="92" y="172">300</tspan>
+                            </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A" transform="translate(111)">
+                                <tspan x="123" y="172">400</tspan>
+                            </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A" transform="translate(111)">
+                                <tspan x="154" y="172">500</tspan>
+                            </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A" transform="translate(111)">
+                                <tspan x="185" y="172">600</tspan>
+                            </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A" transform="translate(111)">
+                                <tspan x="216" y="172">700</tspan>
+                            </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A" transform="translate(111)">
+                                <tspan x="247" y="172">800</tspan>
+                            </text>
+        <g>
+            <path fill="#6DC8E6" d="M113 54h53v14h-53z"/>
+            <path fill="#FFA66B" d="M113 18h92v14h-92zM113 84h168v14H113z"/>
+            <path fill="#6DC8E6" d="M113 122h123v14H113z"/>
+        </g>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A">
+                            <tspan x="0" y="67">Assigned PO</tspan>
+                        </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A">
+                            <tspan x="0" y="31">Unassigned PO</tspan>
+                        </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A">
+                            <tspan x="0" y="97">Project Changes </tspan>
+                            <tspan x="0" y="107">Unassigned PO</tspan>
+                        </text>
+        <text font-family="Poppins-Regular, Poppins" font-size="10" fill="#4A4A4A">
+                            <tspan x="0" y="133">Project Changes </tspan>
+                            <tspan x="0" y="143">Assigned PO</tspan>
+                        </text>
+        <path fill="#E7E7E7" d="M112 157.758h279V159H112z"/>
+    </g>
+</svg>

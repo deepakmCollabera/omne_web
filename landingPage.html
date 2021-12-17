@@ -1,0 +1,729 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OMNE - Landing page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/styleGuideOmne.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <!-- top omne bar -->
+    <div class="omne_bar">
+        <div class="custom_container">
+            <div class="box_menu">
+                <img src="./images/icons/box_menu.svg" alt="box_menu" />
+                <div class="app_grid">
+                    <h4 class="text_18 font_500">Services</h4>
+                    <div class="app_grid_body py_2 px_4">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="font_500 text_16 nav-link active" id="pills-onboard-tab"
+                                    data-toggle="tab" href="#pills-onboard" type="button" role="tab"
+                                    aria-controls="pills-onboard" aria-selected="true">Onboard</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="font_500 text_16 nav-link" id="pills-manage-tab" data-toggle="tab"
+                                    href="#pills-manage" type="button" role="tab" aria-controls="pills-manage"
+                                    aria-selected="false">Manage</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="font_500 text_16 nav-link" id="pills-network-tab" data-toggle="tab"
+                                    href="#pills-network" type="button" role="tab" aria-controls="pills-network"
+                                    aria-selected="false">Network</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="font_500 text_16 nav-link" id="pills-engage-tab" data-toggle="tab"
+                                    href="#pills-engage" type="button" role="tab" aria-controls="pills-engage"
+                                    aria-selected="false">Engage</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-onboard" role="tabpanel"
+                                aria-labelledby="pills-onboard-tab">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="app_grid_wrap">
+                                            <a href="#">
+                                                <img src="./images/icons/onboarding.svg" alt="onboarding" />
+                                                <h5 class="text_16 font_500 mt_2 mb_0">Onboarding</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="app_grid_wrap">
+                                            <a href="#">
+                                                <img src="./images/icons/ic_esign.svg" alt="ic_esign.svg" />
+                                                <h5 class="text_16 font_500 mt_2 mb_0">Esign</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="app_grid_wrap">
+                                            <a href="#">
+                                                <img src="./images/icons/ic_bgv.svg" alt="ic_bgv.svg" />
+                                                <h5 class="text_16 font_500 mt_2 mb_0">BGV</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="app_grid_wrap">
+                                            <a href="#">
+                                                <img src="./images/icons/ic_immigrations.svg"
+                                                    alt="ic_immigrations.svg" />
+                                                <h5 class="text_16 font_500 mt_2 mb_0">Immigrations</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-manage" role="tabpanel"
+                                aria-labelledby="pills-manage-tab">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="app_grid_wrap">
+                                            <a href="#">
+                                                <img src="./images/icons/ic_clientsetup.svg" alt="ic_clientsetup.svg" />
+                                                <h5 class="text_16 font_500 mt_2 mb_0">Client Setup</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="app_grid_wrap">
+                                            <a href="#">
+                                                <img src="./images/icons/ic_audit.svg" alt="ic_audit.svg" />
+                                                <h5 class="text_16 font_500 mt_2 mb_0">Audit</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="app_grid_wrap">
+                                            <a href="#">
+                                                <img src="./images/icons/ic_dms.svg" alt="ic_dms.svg" />
+                                                <h5 class="text_16 font_500 mt_2 mb_0">DMS</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="app_grid_wrap">
+                                            <a href="#">
+                                                <img src="./images/icons/ic_hris_.svg" alt="ic_hris_.svg" />
+                                                <h5 class="text_16 font_500 mt_2 mb_0">HRIS</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-network" role="tabpanel"
+                                aria-labelledby="pills-network-tab">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="app_grid_wrap">
+                                            <a href="#">
+                                                <img src="./images/icons/ic_erconnect.svg" alt="ic_erconnect.svg" />
+                                                <h5 class="text_16 font_500 mt_2 mb_0">ER Connect</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-engage" role="tabpanel"
+                                aria-labelledby="pills-engage-tab">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="app_grid_wrap">
+                                            <a href="#">
+                                                <img src="./images/icons/ic_survey.svg" alt="ic_survey.svg" />
+                                                <h5 class="text_16 font_500 mt_2 mb_0">Survey</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo_wrap">
+                <img src="./images/omne_with_tagline_rgb.png" title="omne_with_tagline_rgb" />
+            </div>
+            <div class="menu_items">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="./images/icons/ic-user-search.svg" alt="ic-user-search" />
+                        </a>
+                    </li>
+                    <li class="notification_bell position-relative">
+                        <a href="">
+                            <img src="./images/icons/ic-notification.svg" alt="ic-notification" />
+                            <span>8</span>
+                        </a>
+                        <div class="notification_wrap">
+                            <h4 class="text_16 font_500 primary_color">Notifications</h4>
+                            <ul>
+                                <li class="text_12 font_400"><b>New features</b> updated in Unified Client Compliance
+                                </li>
+                                <li class="text_12 font_400"><b>New features</b> updated in Unified Client Compliance
+                                </li>
+                                <li class="text_12 font_400"><b>New features</b> updated in Unified Client Compliance
+                                </li>
+                                <li class="text_12 font_400"><b>New features</b> updated in Unified Client Compliance
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/icons/ic-help.svg" alt="ic-help" />
+                        </a>
+                    </li>
+                    <li>
+                        <div class="org_select">
+                            <div class="org_flag">
+                                <img src="./images/icons/ic-us-flag.png" alt="ic-us-flag" />
+                            </div>
+                            <div class="org_name">
+                                <h5 class="font_500 text_12 mb_0">Collabera Inc</h5>
+                                <p class="grey_color_one font_500 text_12 mb_0">US</p>
+                            </div>
+                            <div class="org_icon">
+                                <img src="./images/icons/ic-white_arrow.svg" alt="white_arrow" />
+                            </div>
+                            <div class="org_dropdown">
+                                <ul>
+                                    <li>
+                                        <div class="org_flag">
+                                            <img src="./images/icons/ic-small-us-flag.png" alt="ic-small-us-flag" />
+                                        </div>
+                                        <div class="org_name">
+                                            <h5 class="font_500 text_12 mb_0 black_color_one">Collabera Inc</h5>
+                                            <p class="grey_color_one font_500 text_12 mb_0">US</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="org_flag">
+                                            <img src="./images/icons/ic-small-us-flag.png" alt="ic-small-us-flag" />
+                                        </div>
+                                        <div class="org_name">
+                                            <h5 class="font_500 text_12 mb_0 black_color_one">Collabera Inc</h5>
+                                            <p class="grey_color_one font_500 text_12 mb_0">US</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="org_select user_det">
+                            <div class="org_flag">
+                                <img src="./images/icons/ic-avatar@2x.png" alt="ic-avatar" />
+                            </div>
+                            <div class="org_name">
+                                <h5 class="font_500 text_12 mb_0">Jaydeep Solanki</h5>
+                                <p class="grey_color_one font_500 text_12 mb_0">Specialist - Operations</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="more_opt pl_4 cursor_pointer">
+                            <div class="org_icon">
+                                <img src="./images/icons/ic-white_arrow.svg" alt="white_arrow" />
+                            </div>
+                            <div class="org_dropdown ">
+                                <ul>
+                                    <li>
+                                        <div class="org_flag">
+                                            <img src="./images/icons/ic-self.svg" alt="ic-self" />
+                                        </div>
+                                        <div class="org_name">
+                                            <h5 class="font_400 text_14 mb_0 black_color_one">Self</h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="org_flag">
+                                            <img src="./images/icons/ic-my-team.svg" alt="ic-my-team.svg" />
+                                        </div>
+                                        <div class="org_name">
+                                            <h5 class="font_400 text_14 mb_0 black_color_one">My Team</h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="org_flag">
+                                            <img src="./images/icons/ic-settings.svg" alt="ic-settings.svg" />
+                                        </div>
+                                        <div class="org_name">
+                                            <h5 class="font_400 text_14 mb_0 black_color_one">Settings</h5>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="org_flag">
+                                            <img src="./images/icons/ic-logout.svg" alt="ic-logout.svg" />
+                                        </div>
+                                        <div class="org_name">
+                                            <h5 class="font_400 text_14 mb_0 black_color_one">Logout</h5>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- top omne bar -->
+
+    <!-- sidebar_left -->
+    <div class="leftSideBar pt_4 pb_4 pl_2 pr_2">
+        <div class="side_menu">
+            <img src="./images/icons/ham_menu.svg" alt="ham_menu" />
+        </div>
+        <div class="sideNavItems">
+            <ul>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-dashboard.svg"
+                                alt="ic-dashboard" /></span>
+                        <span class="text_hid">Dashnboard</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-metal.svg" alt="ic-metal" /></span>
+                        <span class="text_hid">Metal</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-connect.png"
+                                alt="ic-connect.png" /></span> <span class="text_hid"> Conect</span></a>
+                </li>
+                <li>
+                    <a href="" class=" text_14 active"><span><img src="./images/icons/ic-calendar.svg"
+                                alt="ic-calendar.svg" /></span> <span class="text_hid"> Timesheet</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14 "><span><img src="./images/icons/ic-solomon.svg"
+                                alt="ic-paystub-verification" /></span> <span class="text_hid">Solomon</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14 "><span><img src="./images/icons/ic-ehris.svg"
+                                alt="ic-ehris.svg" /></span> <span class="text_hid">EHRIS</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-place.svg"
+                                alt="ic-place.svg" /></span> <span class="text_hid">Place</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-appadmin.svg"
+                                alt="ic-appadmin.svg" /></span> <span class="text_hid">Appadmin</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-oracle.svg"
+                                alt="ic-oracle.svg" /></span> <span class="text_hid">Oracle HCM</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-wallet.svg"
+                                alt="ic-wallet.svg" /></span> <span class="text_hid">Teams</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-info.svg" alt="ic-info.svg" /></span>
+                        <span class="text_hid">Cares</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-cards.svg"
+                                alt="ic-cards.svg" /></span> <span class="text_hid">Cards</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-report.svg"
+                                alt="ic-report.svg" /></span> <span class="text_hid">POBI Reports</span> </a>
+                </li>
+                <li>
+                    <a href="" class=" text_14"><span><img src="./images/icons/ic-report.svg"
+                                alt="ic-report.svg" /></span> <span class="text_hid">Radar</span> </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- sidebar_left -->
+
+    <!-- main wrap -->
+    <div class="main_wrapper custom_container">
+        <div class="banner_carousel">
+            <div id="bannerCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#bannerCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#bannerCarousel" data-slide-to="1"></li>
+                    <li data-target="#bannerCarousel" data-slide-to="2"></li>
+                    <li data-target="#bannerCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="banner">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h3>CBC Redo Process for operations is now live in <br> OMNE BGV Service</h3>
+                                    <button class="primary_btn">
+                                        Check Now
+                                    </button>
+                                </div>
+                                <div class="col-md-4 bg_banner">
+                                    <img src="./images/icons/ic_bgv.svg" alt="ic_bgv" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h3>CBC Redo Process for operations is now live in <br> OMNE BGV Service 2</h3>
+                                    <button class="primary_btn">
+                                        Check Now
+                                    </button>
+                                </div>
+                                <div class="col-md-4 bg_banner">
+                                    <img src="./images/icons/ic_bgv.svg" alt="ic_bgv" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h3>CBC Redo Process for operations is now live in <br> OMNE BGV Service 3</h3>
+                                    <button class="primary_btn">
+                                        Check Now
+                                    </button>
+                                </div>
+                                <div class="col-md-4 bg_banner">
+                                    <img src="./images/icons/ic_bgv.svg" alt="ic_bgv" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h3>CBC Redo Process for operations is now live in <br> OMNE BGV Service 4</h3>
+                                    <button class="primary_btn">
+                                        Check Now
+                                    </button>
+                                </div>
+                                <div class="col-md-4 bg_banner">
+                                    <img src="./images/icons/ic_bgv.svg" alt="ic_bgv" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services_wrap">
+            <div class="services_wrap_head cursor_pointer">
+                <h4 class="text_18 font_500 primary_color m-0">My Services</h4>
+                <span class="ml_auto text_18 font_500 primary_color">+</span>
+            </div>
+            <div class="services_wrap_body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="services_box">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <h5 class="text_16 font_400 primary_color mb_2">Onboarding</h5>
+                                    <img src="./images/icons/onboarding.svg" alt="onboarding" />
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services_box">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <h5 class="text_16 font_400 primary_color mb_2">Onboarding</h5>
+                                    <img src="./images/icons/onboarding.svg" alt="onboarding" />
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services_box">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <h5 class="text_16 font_400 primary_color mb_2">Onboarding</h5>
+                                    <img src="./images/icons/onboarding.svg" alt="onboarding" />
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services_box">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <h5 class="text_16 font_400 primary_color mb_2">Onboarding</h5>
+                                    <img src="./images/icons/onboarding.svg" alt="onboarding" />
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services_box">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <h5 class="text_16 font_400 primary_color mb_2">Onboarding</h5>
+                                    <img src="./images/icons/onboarding.svg" alt="onboarding" />
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services_box">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <h5 class="text_16 font_400 primary_color mb_2">Onboarding</h5>
+                                    <img src="./images/icons/onboarding.svg" alt="onboarding" />
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services_box">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <h5 class="text_16 font_400 primary_color mb_2">Onboarding</h5>
+                                    <img src="./images/icons/onboarding.svg" alt="onboarding" />
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services_box">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <h5 class="text_16 font_400 primary_color mb_2">Onboarding</h5>
+                                    <img src="./images/icons/onboarding.svg" alt="onboarding" />
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="services_box">
+                            <div class="row align-items-center">
+                                <div class="col-md-5">
+                                    <h5 class="text_16 font_400 primary_color mb_2">Onboarding</h5>
+                                    <img src="./images/icons/onboarding.svg" alt="onboarding" />
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar mb_1">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                    <div class="inner_status_bar">
+                                        <p class="text_12 primary_color mb_0 ">Assigned</p>
+                                        <h4 class="text_12 primary_color m_0 ml_auto font_500 grey_box">75</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="analysis_wrap mt_3">
+            <div class="analysis_wrap_head">
+                <h4 class="text_18 font_500 primary_color m-0">Analytics</h4>
+                <a class="text_18 font_500 primary_color ml-auto" href="">Goto Reports</a>
+            </div>
+            <div class="analysis_wrap_body">
+                <div class="row">
+                    <div class="col-md-3 border_right_black text-center">
+                        <h5 class="text_16 font_400 mb_2">Redo Status</h5>
+                        <img src="./images/firstChart.png" alt="firstChart" />
+                    </div>
+                    <div class="col-md-3 border_right_black text-center">
+                        <h5 class="text_16 font_400 mb_2">BGV New Onboard</h5>
+                        <img src="./images/piechart.png" alt="piechart" />
+                    </div>
+                    <div class="col-md-3 border_right_black text-center">
+                        <h5 class="text_16 font_400 mb_2">PO Status</h5>
+                        <img src="./images/postatus_chart.png" alt="postatus_chart" />
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <h5 class="text_16 font_400 mb_2">Assigned/Unassigned PO</h5>
+                        <img src="./images/barchart.png" alt="barchart" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+
+</html>
